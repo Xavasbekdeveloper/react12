@@ -1,0 +1,46 @@
+.modal {
+    &__overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background: #0005;
+    }
+
+    &__form {
+        width: 400px;
+        padding: 20px;
+        background-color: #fff;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px 10px;
+            border: 1px solid #A4A6B3;
+            outline: none;
+            border-radius: 6px;
+        }
+
+        button {
+            border: none;
+            outline: none;
+            border-radius: 6px;
+            background-color: #A4A6B3;
+            padding: 8px;
+            color: #fff;
+            font-size: 16px;
+        }
+    }
+}
